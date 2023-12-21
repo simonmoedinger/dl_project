@@ -1,0 +1,26 @@
+Es wird eine Frage gestellt, die zwischen den TAGS BEGINFRAGE und ENDFRAGE steht. 
+Beantworte diese Frage, indem du genau eine von fünf Antwortmöglichkeiten auswählst. 
+Die erste Antwortmöglichkeiten steht zwischen den Tags BEGINANTWORT0 und ENDANTWORT0. 
+Die zweite Antwortmöglichkeit steht zwischen den Tags BEGINANTWORT1 und ENDANTWORT1. 
+Die dritte Antwortmöglichkeit steht zwischen den Tags BEGINANTWORT2 und ENDANTWORT2. 
+Die vierte Antwortmöglichkeit steht zwischen den Tags BEGINANTWORT3 und ENDANTWORT3. 
+Die fünfte Antwortmöglichkeit steht zwischen den Tags BEGINANTWORT4 und ENDANTWORT4.
+
+BEGINFRAGE
+	Ein 68-jähriger Patient wird vom Notarztwagen bei Verdacht auf Schlaganfall gebracht. 45 Minuten zuvor waren eine Halbseitenlähmung rechts und eine Sprechstörung aufgetreten.  Bei der neurologischen Untersuchung findet sich eine hochgradige Hemiparese rechts mit Hypalgesie der rechten Körperhälfte. Es bestehen eine Dysarthrie und eine homonyme obere Quadrantenanopsie nach rechts. Die Muskeleigenreflexe sind rechts lebhafter als links auslösbar; das Babinski-Zeichen ist rechts positiv.  Vorbekannt sind eine arterielle Hypertonie, eine Hypercholesterinämie und eine absolute Arrhythmie bei Vorhofflimmern. Regelmäßige Einnahme von Dabigatran, Candesartan und Atorvastatin.  Die notfallmäßig durchgeführte CT zeigt keine Infarktfrühzeichen. Der Blutdruck beträgt 200/95 mmHg, die Notfalllaboruntersuchungen ergeben u. a. eine regelrechte Blutglukosekonzentration.  Welche therapierelevante Diagnostik sollte jetzt notfallmäßig in erster Linie zusätzlich erfolgen?
+ENDFRAGE
+BEGINANTWORT0
+	0) Diffusionsbildgebung
+ENDANTWORT0
+BEGINANTWORT1
+	1) CT-Angiografie
+ENDANTWORT1
+BEGINANTWORT2
+	2) Echokardiografie
+ENDANTWORT2
+BEGINANTWORT3
+	3) Bestimmung der INR
+ENDANTWORT3
+BEGINANTWORT4
+	4) Messung der Sauerstoffsättigung
+ENDANTWORT4

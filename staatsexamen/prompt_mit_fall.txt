@@ -1,0 +1,29 @@
+Es folgt eine Fallbeschreibung, dessen Anfang und Ende durch die Tags BEGINFALL und ENDFALL markiert ist. Darauf wird eine Frage gestellt, die zwischen den TAGS BEGINFRAGE und ENDFRAGE steht. 
+Beantworte diese Frage, indem du genau eine von fünf Antwortmöglichkeiten auswählst. 
+Die erste Antwortmöglichkeiten steht zwischen den Tags BEGINANTWORT0 und ENDANTWORT0. 
+Die zweite Antwortmöglichkeit steht zwischen den Tags BEGINANTWORT1 und ENDANTWORT1. 
+Die dritte Antwortmöglichkeit steht zwischen den Tags BEGINANTWORT2 und ENDANTWORT2. 
+Die vierte Antwortmöglichkeit steht zwischen den Tags BEGINANTWORT3 und ENDANTWORT3. 
+Die fünfte Antwortmöglichkeit steht zwischen den Tags BEGINANTWORT4 und ENDANTWORT4.
+
+BEGINFALL 
+	Frau N. (28 Jahre, 178 cm, 60 kg, eritreischer Herkunft) ist vor 3 Monaten als Asylsuchende nach Deutschland gekommen. In ihrer Unterkunft ist sie jetzt nach körperlicher Anstrengung in einem stickigen Zimmer kollabiert. Bei Eintreffen des Notarztes ist die Patientin benommen, gibt aber mithilfe eines Dolmetschers klare Antworten auf gezielte Fragen. Die körperliche Untersuchung erbringt den Befund einer Tachyarrhythmie</span> von ca. 130 Schlägen pro Minute und eines Blutdrucks von 80/40 mmHg. Außerdem finden sich feinblasige Rasselgeräusche über beiden Lungenunterfeldern bei einer Tachypnoe von 20 bis 30 flachen Atemzügen pro Minute. Am linken Hemithorax befindet sich eine alte Narbe einer posterolateralen Thorakotomie. Frau N. gibt an, als Jugendliche am Herzen operiert worden zu sein. Der Notarzt transportiert die Frau in die Notaufnahme des nahegelegenen Großklinikums. Auf dem Transport-EKG findet sich kein Hinweis auf eine kardiale Ischämie. Die weitere kardiologische Untersuchung ergibt bei persistierender Tachyarrhythmie eine Mitralklappenstenose mit ausgeprägten Verkalkungen und Rigidität beider Segel. Der linke Vorhof ist massiv vergrößert. Der linke Ventrikel kontrahiert zwar gut, weist aber eine schlechte Füllung auf.
+ENDFALL
+BEGINFRAGE
+	Welche der folgenden Rhythmusstörungen liegt der bei Frau N. festgestellten Tachyarrhythmie am ehesten zugrunde?
+ENDFRAGE
+BEGINANTWORT0
+	0) eine Torsade de Pointes
+ENDANTWORT0
+BEGINANTWORT1
+	1) eine Wenckebach-Periodik
+ENDANTWORT1
+BEGINANTWORT2
+	2) ein Wolff-Parkinson-White-Syndrom
+ENDANTWORT2
+BEGINANTWORT3
+	3) ein Sick-Sinus-Syndrom
+ENDANTWORT3
+BEGINANTWORT4
+	4) chronisches Vorhofflimmern
+ENDANTWORT4
