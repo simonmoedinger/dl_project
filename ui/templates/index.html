@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Chatbot Interface</title>
+<link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+
+<div class="header">
+  <h1>Medical Assistant</h1>
+</div>
+<div class="model_selection">
+  <label for="models">Choose a model:</label>
+  <select name="models" id="models">
+    <option value="../leolm/fully_trained_model/">../leolm/fully_trained_model/</option>
+    <option value="LeoLM/leo-mistral-hessianai-7b">LeoLM/leo-mistral-hessianai-7b</option>
+    <option value="medalpaca/medalpaca-7b">medalpaca/medalpaca-7b</option>
+    <option value="mistralai/Mistral-7B-v0.1">mistralai/Mistral-7B-v0.1</option>
+  </select>
+</div>
+<div class="chat-options">
+  <input class="chat-option" type="button" value="Ein Schlaganfall kann ausgelöst werden durch" id="button1" />
+  <input class="chat-option" type="button" value="Die koronare Herzkrankheit beeinflusst die Gesundheit, da" id="button2" />
+  <input class="chat-option" type="button" value="TODO " id="button3" />
+  <input class="chat-option" type="button" value="TODO" id="button4" />
+</div>
+<div id="chat-container">
+    <!-- Messages will be displayed here -->
+    <div id="messages" class="message-container"></div>
+  </div>
+  <div id="input-container">
+    <input type="text" id="user-input" placeholder="Message Luminous..." />
+    <button id="send-button">↑</button>
+  </div>
+
+<script src="{{ url_for('static', filename='js/chatbot.js') }}"></script>
+
+</body>
+</html>
+
+
+
+  

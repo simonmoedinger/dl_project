@@ -1,0 +1,97 @@
+body {
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    background-color: #333;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: space-between;
+  }
+  .header {
+    text-align: center;
+    padding: 30px;
+  }
+  .header img {
+    margin-bottom: 20px;
+    width: 15%; /* The image will take up 50% of the width of its container */
+    height: auto; /* To maintain the aspect ratio */
+  }
+  .header h1 {
+    font-size: 34px;
+  }
+  .chat-options {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+    padding: 20px;
+  }
+  .chat-option {
+    background-color: #555;
+    border: none;
+    padding: 15px;
+    border-radius: 20px;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+  }
+  .chat-option:hover {
+    background-color: #777;
+  }
+  #chat-container {
+  flex-grow: 1;
+  overflow-y: auto;
+  margin-bottom: 20px; /* Adjust as necessary */
+ }
+ #input-container {
+  position: fixed;
+  bottom: 0;
+  left: 50%; /* Set left to 50% to start the centering */
+  transform: translateX(-50%); /* Use transform to complete the centering */
+  width: 80%; /* Set the width of the input container to 80% of the viewport width */
+  max-width: 600px; /* You can set a max-width to prevent it from getting too wide */
+  padding: 10px;
+  background: #222;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between; /* This will place the send button to the right */
+ }
+ #user-input {
+  width: calc(100% - 60px); /* Subtract the width of the button and some padding */
+  padding: 10px 15px;
+  border-radius: 20px;
+  border: none;
+  margin-right: 10px;
+  background-color: #333;
+  color: #fff;
+ }
+ #send-button {
+  padding: 10px 15px;
+ }
+ #send-button:hover {
+    background-color: #f2ff00;
+ }
+.message {
+  display: flex;
+  width: fit-content;
+  max-width: 80%;
+  margin-top: 10px;
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+}
+.message-container {
+  padding-bottom: 80px; /* Adjust this value to the height of your input container */
+}
+.user {
+  margin-left: auto;
+  background-color: #f2ff00;
+  color: black;
+}
+.bot {
+  margin-right: auto;
+  background-color: #f1f1f1;
+  color: black;
+}

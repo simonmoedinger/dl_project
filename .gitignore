@@ -1,3 +1,7 @@
 .idea
 .DS_Store
 leolm/fully_trained_model
+leolm/trained_on_chunk
+ui/__pycache__
+preprocessing/data
+preprocessing/training_data
