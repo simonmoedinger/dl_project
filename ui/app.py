@@ -12,7 +12,6 @@ from transformers import BitsAndBytesConfig
 
 
 model_name = "../leolm/fully_trained_model/"
-#model_name = "LeoLM/leo-mistral-hessianai-7b"
 bnb_config = BitsAndBytesConfig(
     load_in_4bit= True,
 )
